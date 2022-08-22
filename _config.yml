@@ -1,5 +1,5 @@
 title: Scott Pendlebury
-description: 
+description: Dev/Sec/Ops
 author:
   name: Scott Pendlebury
 
@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-remote_theme: benbalter/retlab
+remote_theme: scottpendlebury/retlab
 
 nav_pages:
   - index.html
