@@ -7,16 +7,9 @@ lang: en-GB
 
 # Pages to include in header navigation
 nav_pages:
-  - index.html
-  - talks.md
-  - press.md
+  - index.md
   - about.md
   - contact.md
-
-# Pages to include in footer navigation
-footer_pages:
-  - books.md
-  - fine-print.md
 
 contact_links:
   - name: Twitter
