@@ -1,11 +1,46 @@
-remote_theme: benbalter/retlab
-
 title: Scott Pendlebury
 description: 
+author:
+  name: Scott Pendlebury
 
+url: "https://www.scottpendlebury.co.uk"
+
+social:
+  name: Scott Pendlebury
+  links:
+    - https://linkedin.com/in/scottpendlebury
+
+permalink: "/:year/:month/:day/:title/"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      comments: false
+
+timezone: Europe/London
+encoding: UTF-8
 lang: en-GB
 
-# Pages to include in header navigation
+plugins:
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-github-metadata
+  - jekyll-mentions
+
+remote_theme: benbalter/retlab
+
 nav_pages:
   - index.html
   - about.md
@@ -15,27 +50,3 @@ contact_links:
   - name: Twitter
     url: https://twitter.com
     icon: twitter
-
-# Front matter defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-      comments: false
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page
-      comments: false
-
-# Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-avatar
-  - jekyll-github-metadata
-  - jekyll-feed
