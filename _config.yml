@@ -7,7 +7,7 @@ lang: en-GB
 
 # Pages to include in header navigation
 nav_pages:
-  - index.md
+  - index.html
   - about.md
   - contact.md
 
