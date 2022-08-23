@@ -1,37 +1,47 @@
 title: Scott Pendlebury
 description: Dev/Sec/Ops
-author:
-  name: Scott Pendlebury
 
-url: "https://www.scottpendlebury.co.uk"
-
-permalink: "/:year/:month/:day/:title/"
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: false
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      comments: false
-
-timezone: Europe/London
-encoding: UTF-8
 lang: en-GB
-
-plugins:
-  - jemoji
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
-remote_theme: scottpendlebury/retlab
+branch: main
 
 nav_pages:
   - index.html
   - about.md
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      comments: false
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      comments: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-github-metadata
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+exclude:
+  - vendor/bundle/
+  - node_modules/
+  - js/
+  - sass/
+  - script/
+  - prettier.config.js
+  - "*.gem"
+  - "*.gemspec"
+  - "*.json"
+  - "*.ts"
+
+theme: null

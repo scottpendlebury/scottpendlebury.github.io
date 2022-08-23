@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" xml:lang="{{ site.lang }}">
+  <head>
+    {% include_cached meta.html %}
+    {% feed_meta %}
+    {% seo %}
+    {% if page.reload %}
+    <meta name="turbo-visit-control" content="reload">
+    {% endif %}
+  </head>
+  <body class="{{ page.layout }} post{{ page.id | slugify | prepend: "-"}} mt-2">
+    <div class="container">
+
+      {% if layout.hero %}
+        <div class="hero-unit rounded-top position-relative">&nbsp;</div>
+      {% endif %}
+
+      {% include nav.html %}
+
+      <div class="content" id="content" role="main">
+        {{ content }}
+      </div><!-- /.content -->
+
+      {% include_cached footer.html %}
+    </div><!--/.container-->
+
+  </body>
+</html>
+<!-- Proudly Powered by GitHub Pages | Generated {{ site.time }} | Revision {{ site.github.build_revision }} -->
