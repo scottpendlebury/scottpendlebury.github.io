@@ -5,11 +5,6 @@ author:
 
 url: "https://www.scottpendlebury.co.uk"
 
-social:
-  name: Scott Pendlebury
-  links:
-    - https://linkedin.com/in/scottpendlebury
-
 permalink: "/:year/:month/:day/:title/"
 defaults:
   - scope:
@@ -40,9 +35,3 @@ remote_theme: scottpendlebury/retlab
 nav_pages:
   - index.html
   - about.md
-  - contact.md
-
-contact_links:
-  - name: Twitter
-    url: https://twitter.com
-    icon: twitter
