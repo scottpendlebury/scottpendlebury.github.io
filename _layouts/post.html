@@ -6,13 +6,13 @@ layout: default
   <div class="col-md-10 offset-md-1">
       <article id="post{{ page.id | replace:"/","-" }}" class="post post{{ page.id | replace:"/","-" }}">
 
-      <h1 class="display-4 text-primary">{{ page.title | smartify }}</h1>
+      <h1>{{ page.title | smartify }}</h1>
 
       {% if page.description %}
       <div class="lead">
         {% capture tldr %}
 <strong>
-  <abbr title="&quot;Too Long; Didn't Read&quot; &mdash; Internet shorthand for &quot;a brief summary of longer writing&quot;" class="initialism" data-bs-toggle="tooltip" data-bs-placement="right">TL;DR</abbr>: 
+  TL;DR: 
 </strong>
         {% endcapture %}
 
