@@ -2,6 +2,8 @@
 title: How to set up two Git repositories from the same directory
 ---
 
+<img src="/assets/img/52156992129_9aaab4beeb_o.jpg" class="rounded mx-auto d-block img-fluid" >
+
 ---
 ### Introduction
 
@@ -62,3 +64,7 @@ This is the solution that we used and the steps to recreate it are as follows.
 5. Now you're all set to push changes as you would normally with the existing Git repository and `add`, `commit` and `push` changes to the second Git repository and second remote. 
 
     A simple script scheduled by cron to make occasional commits and pushes to the second remote would keep the files added to this repository up to date as they're worked on.
+
+---
+
+The featured image is [Penguin Nests](https://www.flickr.com/photos/davidstanleytravel/52156992129/in/photolist-2nsWdCZ-2nuChDW-2ntY5AP-2nCGeM1-2nxHbSt-2kKPLwa-2nCuh3M-nFYwha-2nw4JyR-2nD43em-2dhx1p4-XbYyaQ-Q2iYfA-MMMVdp-CJ7nfg-2hnTwih-2hzbuRp-5PA87j-2nu3TcR-2iSQTHm-2ntyRmt-2nuW4aP-2nx21Ta-2nx1oFT-2ny7jeP-2eUUV5e-2ntCsW8-2nvpnPP-2iTWHCx-2ny3TY9-2nwMMs1-89zbeu-2mbNbab-2nvjzBt-2nxg5SA-2ntaCz9-2nwsRzU-2nDmdgH-2kevj4w-21Xpc5g-2mG29yx-2kChA2L-2nvkU2y-VBAc3Q-2nxA7yb-24bJKrS-oQb7wc-GbMrTG-2nxeUfm-2nAQw6o){:target="_blank"}
