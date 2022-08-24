@@ -49,7 +49,7 @@ This is the solution that we used and the steps to recreate it are as follows.
 
     >`git --git-dir=.gittwo add .\chosen_content.json` 
 
-4. Working with the second Git directory is exactly the same as it would be without using the `--git-dir` parameter. To complete our setup we need to commit the change, add the new remote and push the change, all while remembering to use the `--git-dir` parameter.
+4. Working with the second Git directory is exactly the same as it would be without using the `--git-dir` parameter. To complete the setup you need to commit the change, add the new remote and push the change, all while remembering to use the `--git-dir` parameter.
 
     >`git --git-dir=.gittwo commit -m "Initial commit"`
     >
