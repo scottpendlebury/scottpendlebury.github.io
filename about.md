@@ -3,4 +3,4 @@ title: About
 permalink: /about/
 ---
 
-### Profile
+Coming soon...
