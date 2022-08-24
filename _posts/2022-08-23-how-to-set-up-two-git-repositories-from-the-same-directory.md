@@ -35,7 +35,7 @@ Have two Git repositories in the same directory and point each one to a differen
 
 This is the solution that we used and the steps to recreate it are as follows.
 
-1. Initialise a git repository in a temporary directory first.
+1. Initialise a Git repository in a temporary directory first.
 
     >`mkdir temp && cd temp`
     >
